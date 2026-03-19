@@ -19,19 +19,16 @@ By using a simple text editor and the command line, I maintained full control ov
 - Conflict Resolution: Identified and resolved a manual merge conflict in World.py during the integration of feature-2 into Master 
 
 # Issue #1: Initial Script Creation
-* Problem: Need to establish a baseline World.py file in the repository.
+Description:Establish the baseline `World.py` file in the repository.
+Resolution:Created the script on the `Master` branch and performed the initial commit to set the project foundation.
 
-* Resolution: Created World.py in the Master branch and performed the initial commit and push.
+# Issue #2: Syntax Error Debugging
+Description:During the development of `feature-2`, the script failed with a `SyntaxError: unterminated string literal`.
+Resolution:Identified a missing closing quotation mark in the print statement via Git Bash. The code was corrected, tested locally, and committed.
 
-# Issue #2: Syntax Error in Feature-2
-* Problem: During the development of feature-2, the script failed with an unterminated string literal error.
-
-* Resolution: Identified a missing closing quotation mark in the print statement via Git Bash testing. Corrected the code and committed the fix.
-
-# Issue #3: Merge Conflict Resolution
-* Problem: Divergent changes between Master and feature-2 caused a (Master|MERGING) conflict.
-
-* Resolution: Manually edited World.py to remove conflict markers (<<<<<<<, =======, >>>>>>>) and synchronized the branches.
+# Issue #3: Merge Conflict Resolution & Collaboration
+Description:Divergent changes between `Master` and `feature-2` caused a `(Master|MERGING)` conflict.
+Resolution:Manually edited `World.py` to remove conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`). My contributor then reviewed the Pull Request and finalized the merge into the `Master` branch.
 
 # Code Evolution:
 1. Initial State: Basic "Hello, World" output.
